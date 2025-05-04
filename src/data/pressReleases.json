@@ -1,0 +1,21 @@
+[
+    {
+      "date": "April 15, 2025",
+      "title": "YourBank Launches AI-Powered Financial Advisor",
+      "summary": "YourBank introduces a new AI-based financial advisor tool to help users manage savings more efficiently.",
+      "image": "/img/press1.png"
+    },
+    {
+      "date": "March 22, 2025",
+      "title": "YourBank Partners with GreenTech",
+      "summary": "A strategic partnership aimed at promoting sustainable banking and carbon-neutral initiatives.",
+      "image": "/img/press2.png"
+    },
+    {
+      "date": "February 8, 2025",
+      "title": "YourBank Expands into Europe",
+      "summary": "YourBank is now available in 5 new European countries, offering multi-currency banking solutions.",
+      "image": "/img/press3.png"
+    }
+  ]
+  

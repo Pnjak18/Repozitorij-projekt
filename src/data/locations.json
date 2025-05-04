@@ -1,0 +1,28 @@
+[
+    {
+      "name": "New York Office",
+      "address": "123 5th Ave, New York, NY",
+      "phone": "+1 555-1234",
+      "email": "ny@yourbank.com",
+      "lat": 40.7128,
+      "lng": -74.006
+    },
+    {
+      "name": "London Office",
+      "address": "456 Oxford St, London, UK",
+      "phone": "+44 20 7946 0958",
+      "email": "london@yourbank.com",
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
+    {
+      "name": "Tokyo Office",
+      "address": "789 Shibuya, Tokyo, Japan",
+      "phone": "+81 3-1234-5678",
+      "email": "tokyo@yourbank.com",
+      "lat": 35.6895,
+      "lng": 139.6917
+    }
+  ]
+  
+  

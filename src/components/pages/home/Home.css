@@ -1,0 +1,273 @@
+
+
+
+.blended-image-wrapper {
+    position: relative;
+    text-align: center;
+  }
+  
+  .blended-image {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.95;
+    filter: brightness(1.1) contrast(1.05);
+  }
+
+  body {
+    font-family: 'Lexend', sans-serif ;
+  }
+
+ 
+  
+
+  .hero-section {
+    min-height: 100vh; /* Full viewport height */
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+    margin-top: -120px;
+    
+  }
+  
+  .hero-section .container {
+    z-index: 2;
+    
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+
+  .our-products-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .highlight {
+    color: #CAFF33;
+  }
+  
+  button.btn.btn-theme {
+    background-color: #CAFF33;
+    color: #000;
+    font-weight: 600;
+    border: none;
+  }
+  
+  .btn-outline-theme,
+.btn-outline-theme:link,
+.btn-outline-theme:visited {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border: 2px solid #CAFF33;
+  background-color: transparent;
+  color: #CAFF33;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.375rem;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-theme:hover {
+  background-color: #caff33;
+  color: #000;
+  border-color: #caff33;
+  box-shadow: 0 4px 15px rgba(202, 255, 51, 0.4);
+  transition: all 0.3s ease;
+
+}
+
+.currency-calculator {
+  background-color: #000;
+  border: 1.5px solid #333;
+  border-radius: 16px;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(202, 255, 51, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.currency-calculator:hover {
+  box-shadow: 0 0 25px rgba(202, 255, 51, 0.3);
+  transform: translateY(-5px);
+}
+
+.currency-calculator h5 {
+  color: #CAFF33;
+}
+
+.currency-calculator input,
+.currency-calculator select {
+  background-color: #0f0f0f;
+  border: 1px solid #555;
+  color: #fff;
+}
+
+.currency-calculator input::placeholder {
+  color: #888;
+}
+
+.currency-calculator button {
+  background-color: #CAFF33;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.currency-calculator button:hover {
+  background-color: #b4e32b;
+}
+
+
+  
+  
+  .product-icon {
+    font-size: 2.5rem;
+    color: #CAFF33;
+    margin-bottom: 0.75rem;
+  }
+  
+  .use-cases-section {
+    background-color: #000;
+    color: white;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .section-subtitle {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #aaa;
+  }
+  
+  .use-case-card {
+    width: 45%; /* two per row with small margins */
+    min-width: 160px;
+    height: 140px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(202, 255, 51, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .use-case-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .use-case-card .icon {
+    font-size: 1.8rem;
+    color: #CAFF33;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stat {
+    color: #CAFF33;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  
+
+  .testimonials-section {
+    background-color: #000;
+    padding-bottom: 4rem; /* Add space below the section */
+  }
+  
+  
+  .testimonial-carousel {
+    padding: 2rem 0;
+  }
+  
+  .testimonial-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 2rem;
+    border-radius: 1.5rem;
+    backdrop-filter: blur(8px);
+    color: #fff;
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    min-height: 250px;
+  }
+  
+  .testimonial-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .testimonial-card .quote-icon {
+    font-size: 2rem;
+    color: #CAFF33;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial-card h5 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #CAFF33;
+  }
+  
+  .testimonial-card small {
+    color: #ccc;
+  }
+  
+  
+  
+  .testimonial-swiper {
+    padding: 40px 0;
+    overflow: visible;
+  }
+  
+  .swiper-slide {
+    opacity: 0.5;
+    transform: scale(0.95);
+    transition: transform 0.5s, opacity 0.5s;
+  }
+  
+  .swiper-slide-active {
+    opacity: 1;
+    transform: scale(1.05);
+    z-index: 2;
+  }
+  
+  
+  
+  .testimonial-name {
+    color: #CAFF33;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .quote-icon {
+    font-size: 1.5rem;
+    color: #CAFF33;
+    margin-bottom: 1rem;
+  }
+  
+  .paragraph-icon {
+    font-size: 2rem;
+    color: #CAFF33;
+    margin-bottom: 1rem;
+  }
+
+
+  

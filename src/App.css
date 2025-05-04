@@ -1,0 +1,96 @@
+
+/* App.css */
+
+/* Override Bootstrap default font */
+:root {
+  --bs-body-font-family: 'Lexend', sans-serif;
+}
+
+/* Ensure body uses the Bootstrap font variable */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lexend', sans-serif;
+  background-color: #000;
+  color: #fff;
+  padding-top: 80px; /* match header height if using fixed-top */
+}
+
+  
+  
+  
+
+
+.green-dots-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 800px; /* or whatever fits */
+  height: auto;
+  z-index: -1;
+  pointer-events: none;
+}
+
+
+
+/* Optional: Customize headers */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* Navbar hover styling */
+.navbar .nav-link:hover {
+  color: #CAFF33 !important;
+}
+
+/* Buttons */
+.btn {
+  font-family: var(--bs-body-font-family);
+  font-weight: 500;
+}
+
+/* Utility classes (optional) */
+.text-lexend {
+  font-family: 'Lexend', sans-serif !important;
+}
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
